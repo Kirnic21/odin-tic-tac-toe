@@ -1,0 +1,15 @@
+#gameboard-container{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+background-color: #99f6e4;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    background-color:#d6d3d1;
+}
+.contents{
+    display:flex;
+    justify-content: center;
+}
